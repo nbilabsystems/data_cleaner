@@ -148,6 +148,20 @@ your_file_report.pdf
 
 These are fully generated automatically.
 
+## 💻 Example CLI Interaction
+
+```bash
+$ python3 main.py
+Enter path to CSV file: sample_large_dataset.csv
+
+Loading dataset...
+Cleaning...
+Generating statistics...
+Exporting cleaned CSV and PDF report...
+
+Done! 🎉
+Cleaned file: sample_large_dataset_cleaned.csv
+Report file: sample_large_dataset_report.pdf
 
 ### Basic usage (auto-generated output names)
 ```bash
@@ -237,15 +251,12 @@ data_cleaner/
 
 ---
 
-## 📄 License
-
-This project is provided under a simple open-source license for educational and portfolio purposes.  
-You are free to modify and extend it.
-
----
-
 ## 🤝 Author & Notes
 
 This is a demonstration version showcasing real engineering skill.  
-The core engine can scale into enterprise-level data cleaning pipelines.  
+The core engine can scale into enterprise-level data cleaning pipelines.
+
+## 📄 License
+This project is released under the MIT License.
+
 
