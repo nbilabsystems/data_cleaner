@@ -1,7 +1,11 @@
 # ✨ Data Cleaning & Report Generator
-![Python Version](https://img.shields.io/badge/Python-3.12%2B-blue.svg)
-![Project Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
-![Made With](https://img.shields.io/badge/Made%20with-Python-yellow.svg)
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.12-blue.svg" />
+  <img src="https://img.shields.io/badge/Status-Stable-brightgreen.svg" />
+  <img src="https://img.shields.io/badge/Reports-PDF%20Output-orange.svg" />
+  <img src="https://img.shields.io/badge/Cleaning-Data%20Pipeline-lightgrey.svg" />
+  <img src="https://img.shields.io/badge/Made%20With-Love%20%26%20Python-red.svg" />
+</p>
 
 A professional-grade Python tool that loads messy CSV/Excel files, cleans them, generates analytical summary statistics, and produces a polished PDF report. Built for real-world data workflows and designed to be extended into enterprise‑level pipelines.
 
