@@ -61,6 +61,31 @@ The engine returns:
 
 ---
 
+## 🔄 Before vs After Cleaning
+
+Your dataset is automatically transformed through a multi-stage pipeline.
+
+### **Before Cleaning**
+- 5,000 rows  
+- 5,456 missing values  
+- Inconsistent date formats  
+- Columns with mixed data types  
+- Random strings in numeric columns  
+- Null or corrupted entries  
+- No summary statistics  
+- No structured PDF report  
+
+### **After Cleaning**
+- All numeric columns cleaned and filled with median values  
+- Datetime fields normalized to valid `datetime64` format  
+- All types enforced (int, float, string, datetime)  
+- Clear missing-value reduction  
+- Cleaned CSV exported  
+- Professional PDF report generated  
+- Summary statistics automatically computed  
+
+---
+
 ## 🛠 Installation
 
 ### 1. Clone the repository
@@ -86,6 +111,43 @@ pip install -r requirements.txt
 ---
 
 ## ▶️ Usage
+
+## How to Run the DataCleaner Tool
+
+## ▶️ Step-by-Step Instructions
+
+1. **Activate your virtual environment**
+   ```bash
+   source .venv/bin/activate
+   ```
+
+2. **Run the main script**
+   ```bash
+   python3 main.py
+   ```
+
+3. **Enter the path to your CSV file** when prompted.
+
+4. The tool will automatically:
+   - Load your dataset  
+   - Clean and standardize it  
+   - Generate `*_cleaned.csv`  
+   - Generate `*_report.pdf`
+
+5. All output files are saved in the project directory.
+
+## 📦 Output Files
+
+After running the tool you will get:
+
+```
+your_file.csv  
+your_file_cleaned.csv  
+your_file_report.pdf  
+```
+
+These are fully generated automatically.
+
 
 ### Basic usage (auto-generated output names)
 ```bash
