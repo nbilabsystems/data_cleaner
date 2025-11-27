@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editor & OS junk
+*.swp
+.DS_Store
+
+# Generated reports / cleaned data
+sample_large_dataset_cleaned.csv
+sample_large_dataset_report.pdf
+
