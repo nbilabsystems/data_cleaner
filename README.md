@@ -112,9 +112,9 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-## How to Run the DataCleaner Tool
+### How to Run the DataCleaner Tool
 
-## ▶️ Step-by-Step Instructions
+### ▶️ Step-by-Step Instructions
 
 1. **Activate your virtual environment**
    ```bash
